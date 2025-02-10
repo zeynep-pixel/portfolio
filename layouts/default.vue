@@ -3,9 +3,9 @@
       <nav class="navbar navbar-expand-lg navbar-custom">
         <a class="navbar-brand mx-auto" href="#">Zeynep Tatar</a>
       </nav>
-     <div style="height: 1000px;">
-
-     </div>
+     <main>
+     <NuxtPage/>
+     </main>
      
       <footer class="footer-custom">
         <div class="container">
@@ -81,7 +81,7 @@
   
   /* Footer */
   .footer-custom {
-    background-color: #FDB095; /* Navbar ile aynı şeftali rengi */
+    background-color: rgba(255, 255, 255, 0); /* Navbar ile aynı şeftali rengi */
     padding: 30px 0;
     color: #874335;
     font-family: 'Playfair Display', serif;
@@ -91,6 +91,7 @@
     width: 100%;
     text-align: center;
     z-index: 1; /* Footer'ı en altta tutar */
+    position: fixed;
      
   }
   
