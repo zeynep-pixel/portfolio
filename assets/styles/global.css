@@ -1,0 +1,9 @@
+/* global.css */
+/* global.css */
+body {
+    background: linear-gradient(to bottom right, #E2725B, #D58D8D, #FA6404, #FFDD44);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
